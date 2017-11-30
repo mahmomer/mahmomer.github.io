@@ -1,0 +1,853 @@
+
+.container { width: 85%; margin: auto; }
+
+body {font-family: 'Architects Daughter'; 
+    font-weight: bold; 
+      font-size: 17px; 
+    letter-spacing:.8px;
+    color: #666
+}
+.clearfix { clear: both}
+h2 {
+    font-family: 'Handlee';
+    font-size: 25px; 
+    color: #333;
+    text-transform: capitalize;  
+}
+
+p { font-family: 'Architects Daughter';
+    font-weight: bold; 
+    font-size: 17px; 
+    letter-spacing:.8px;
+    line-height: 23px; 
+    color: #666
+}
+    
+button { 
+    font-family: 'Architects Daughter';
+    font-weight: bold;
+    font-size: 17px;
+    background-color: rgba(0,102,102,.5);
+    border: 0;
+    color: #fff;
+    letter-spacing:.8px;
+    line-height: 23px;
+    text-transform: capitalize;
+    padding: 7px;
+    -webkit-animation: animation1 2s ease-in-out;
+    -moz-animation: animation1 2s ease-in-out;
+    -o-animation: animation1 2s ease-in-out;
+    animation: animation1 2s ease-in-out;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+   -webkit-transition: .7s ease-in-out ;
+   -moz-transition: .7s ease-in-out ;
+   -o-transition: .7s ease-in-out ;
+   transition: .7s ease-in-out ;
+
+}
+
+button:hover{ 
+    color:#333;
+    background-color: #ccc;
+    -webkit-transform: scaleX(1.1);
+    -moz-transform: scaleX(1.1);
+    -o-transform: scaleX(1.1);
+    transform: scaleX(1.1);
+}
+
+
+
+
+input{ 
+    font-family: 'Architects Daughter';
+    font-weight: bold;
+    font-size: 17px;
+    background-color: rgba(0,102,102,.2 );
+    border: .6px solid  rgba(0,102,102,.5);
+    color: #fff;
+    letter-spacing:.8px;
+    line-height: 23px;
+    text-transform: capitalize;
+    padding: 6px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+
+}
+/* start nav bar */
+nav { height:70px; margin-bottom: 20px }
+
+
+nav span { 
+    font-family: 'Courgette';
+    font-size: 4px;
+    color: #33cccc;
+    line-height: 50px;
+    letter-spacing: .;
+    padding: 3px;
+    -webkit-animation: animation1 1s ease-in-out;
+    -moz-animation: animation1 1s ease-in-out;
+    -o-animation: animation1 1s ease-in-out;
+    animation: animation1 1s ease-in-out;
+}
+
+nav ul {margin-top: 12px; position: relative;list-style: none;float: right;}
+
+nav ul li { display: inline;}
+
+nav ul li  a { 
+    text-transform: capitalize;
+    font-family: 'Architects Daughter'; font-weight: bold; font-size: 17px;
+    letter-spacing:1px; text-decoration: none; color: #33cccc;
+    padding: 10px; line-height: 35px;
+    -webkit-animation: animation1 2s ease-in-out;
+    -moz-animation: animation1 2s ease-in-out;
+    -o-animation: animation1 2s ease-in-out;
+    animation: animation1 2s ease-in-out;
+}
+
+nav ul li  a:hover:not(.active){color:#33cccc;  border-left:1px solid #33cccc; background-color: rgba(240,240,240,.5)}
+nav ul li   .active { color:#fff;background-color: #33cccc;}
+
+
+/************** slider ********/ 
+.slider {
+       -webkit-animation: animation1 4s ease-in-out;
+    -moz-animation: animation1 4s ease-in-out;
+    -o-animation: animation1 4s ease-in-out;
+    animation: animation1 4s ease-in-out;
+}
+/*  **************  About ***************  */ 
+
+.about {  background-color:rgba(240,240,240,.8); text-align: center; margin-top: 50px; }
+.about-1{   padding-top: 40px; padding-bottom:60px ;  }
+.about-1 h2 { 
+    -webkit-animation: animation1 4s ease-in-out;
+    -moz-animation: animation1 4s ease-in-out;
+    -o-animation: animation1 4s ease-in-out;
+    animation: animation1 4s ease-in-out;
+}
+.about-1 p { 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-animation: animation1 5s ease-in-out;
+    -moz-animation: animation1 5s ease-in-out;
+    -o-animation: animation1 5s ease-in-out;
+    animation: animation1 5s ease-in-out;
+}
+.about-1 putton { padding: 30px}
+
+/* *************  section one  flex ********* */ 
+.sec-1 {
+    margin-top: 50px;
+    display: flex; 
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    -webkit-animation: animation1 5.5s ease-in-out;
+    -moz-animation: animation1 5.5s ease-in-out;
+    -o-animation: animation1 5.5s ease-in-out;
+    animation: animation1 5.5s ease-in-out;
+}
+.sec-1 > div {  width: 33.3333%;  text-align: center; transition: .5s ease-in}
+.sec-1 > div:hover{ 
+    width: 33%;
+    transform: translateY(3px);
+    background-color: rgba(0,0,0,.1);
+    color: #000;
+    margin-left: 0px;
+    margin-right: 0px ;
+    border: .4px solid #000;
+    border-radius: 25px;
+    padding-top: 5px;
+}
+.sec-1 > div h2 {padding-top: 15px;  color: #333333}
+.sec-1 > div p { color:#666666; padding: 5px;}
+.sec-1 > div i{ 
+    border:  3px solid #ccc; 
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5%;
+    color: #666;
+    transition: 1s ease-in-out;       
+}
+.sec-1 > div:hover i{ transform: rotateY(180deg); background-color: #ccc; color: #fff}
+
+/* *************** section two **************** */
+
+.section-two { height:auto; background-color:rgba(240,240,240,.6); margin-top: 40px; }
+.sec-2 { text-align: center; padding-top: 50px; margin-bottom: 50px;}
+.sec-2  p { color:#666666; padding: 5px;}
+
+            /** ********** section two part two ******************** **/
+
+.flex-two { 
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.flex-two > div { font-size:12px; width: 33% ;}
+
+.flex-two .image-two { 
+    -webkit-box-shadow: 1px 1px 5px #000;
+    -moz-box-shadow: 1px 1px 5px #000;
+    -o-box-shadow: 1px 1px 5px #000;
+    box-shadow: 1px 1px 5px #000;
+    height: 400px;
+    -webkit-transition: 1.3s ease-in-out;
+    -moz-transition: 1.3s ease-in-out;
+    -o-transition: 1.3s ease-in-out;
+    transition: 1.3s ease-in-out
+}
+.flex-two .image-two img  { height:430px; width: 100%; }
+.image-two:hover {  transform: scale(.9); opacity: .7}
+.alig-right {  text-align: right}
+.alig-right >div , .align-left > div { padding: 20px; }
+.alig-right >div i , .align-left > div i { padding: 20px}
+
+/* ************ start section three ****************/ 
+/* ***** left part ****** */
+
+.sec-3 { 
+    margin-top: 0PX;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 60px;    
+}
+.sec-3 p { padding: 20px;}
+.sec-3 h2 { padding-top:20px ;padding-bottom: 20px}
+.sec-3 > div { width: 48%; }
+.sec-3 mark { padding: 10px; background-color:#ccc ; border-bottom: 7px solid #666}
+.sec-3-left p  { padding-right: 20px}
+
+/* ***** right part ***** */ 
+.sec-3-right   { margin-left: 30px}
+.progress-sec-3 {padding: 20px;  padding-left: 50px; background-color:rgba(240,240,240,1);}
+
+
+.progress{
+  width:90%;
+  margin:5px auto;
+
+}
+.progress .box-title{
+  border-bottom:1px solid rgba(0,0,0,.1);
+  text-align:center;
+  padding:10px;
+  font-weight:bold
+}
+.progress .prog-item{
+  margin:10px 0
+}
+.progress .item-title{
+  margin:5px 0;
+  font-weight:bold;
+}
+.progress .prog-value{
+  display:inline-block;
+  text-align:right;
+  padding-right: 5px;
+  border-radius:15px;
+  background:red;
+  color: #fff;
+    font-size: 13px
+}
+
+/* ************* section four *************** */ 
+
+.section-four { background-color: #333; margin-top: 40px; margin-bottom:30px;}
+.sec-4  { color: aliceblue ; margin-left: 70px}
+.sec-4 i { color: aliceblue}
+.sec-4  p { color: #666}
+.sec-4 > div {
+    float: left;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+}
+
+.sec-4 .one { 
+    text-align: right;
+    width: 13%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec-4 .one > div{
+    height: 105px;
+    width: 140px;
+    padding: 10px%;
+    padding-top: 17px;
+}
+
+
+/*------------------------------------------------------*/
+
+.sec-4 .two { 
+    margin-top: 50px;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.sec-4 .two > div { 
+    margin-left: 13px
+    
+}
+.sec-4 .two .circl{ 
+    height: 25px ;
+    width: 25px;
+    background-color: #fff;
+    border-radius: 50%
+}
+
+.sec-4 .two .line{
+    height: 95px;
+    width: 5px;
+    background-color: #fff;
+    margin-left: 24px
+}
+.sec-4 .two .line:last-child{ height: 45px}
+
+/*-----------------------------------------------------------*/
+.sec-4 .three {
+    margin-top: 45px;
+    width: 72%;  }
+
+
+.sec-4 .three > div{
+    padding: 7px;
+    position: relative;
+    width: 98%;
+    border-radius:   0 15px 15px 0 ;
+    background-color: #ccc;
+    margin-bottom: 30px;
+    padding-top: 15px;
+
+}
+.sec-4 .three > div:before { 
+    content: "";
+    position: absolute;
+    width: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: transparent #ccc  transparent transparent;
+    top: 7px;
+    left: -20px
+}
+
+/* *************** section five ************* */ 
+
+.section-five { text-align: center ;}
+.sec-5 p { padding: 10px;}
+.sec-5 { text-align:center; padding-top: 20px;  }
+.sec-5 ul { list-style: none; padding: 25px }
+.sec-5 ul li { display: inline; padding: 10px}
+.sec-5 ul li i {  color: #666}
+.sec-5 ul li i:hover { color: #000}
+.sec-5-bootom { background-color:rgb(240,240,240); ;border-top:3px solid   rgba(0,120,120,.5);}
+.sec-5-bootom img { 
+    height: 250px;
+    width: 250px;
+    margin-top: 20px ;
+    border: 1px solid  #999;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,.7),
+                -1px -1px 5px rgba(0,0,0,.7);
+    -moz-box-shadow: 1px 1px 5px rgba(0,0,0,.7),
+                -1px -1px 5px rgba(0,0,0,.7);
+    -o-box-shadow: 1px 1px 5px rgba(0,0,0,.7),
+                -1px -1px 5px rgba(0,0,0,.7);
+    box-shadow: 1px 1px 5px rgba(0,0,0,.7),
+                -1px -1px 5px rgba(0,0,0,.7s);
+    -webkit-transition: 2s ease-in-out .1s;
+    -moz-transition: 2s ease-in-out .1s;
+    -o-transition: 2s ease-in-out .1s;
+    transition: 2s ease-in-out .1s;
+}
+.sec-5-bootom img:hover { 
+    opacity: .8;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+    -webkit-box-shadow: 2px 2px 5px #fff,
+                        -2px -2px 5px #fff;
+    -moz-box-shadow: 2px 2px 5px #fff,
+                        -2px -2px 5px #fff;
+    -o-box-shadow: 2px 2px 5px #fff,
+                        -2px -2px 5px #fff;
+    box-shadow: 2px 2px 5px #fff,
+                        -2px -2px 5px #fff;
+    
+}
+/* ************ section sex *************** */ 
+.section-sex{ background-color:rgba(240,240,240,1) ; margin-top: 40px; padding-top: 30px;}
+.sec-6 { 
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -moz-flex-wrap: nowrap;
+    -o-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.sec-6 .image {
+    -webkit-transition: 1.3s ease-in-out .3s;
+    -moz-transition: 1.3s ease-in-out .3s;
+    -o-transition: 1.3s ease-in-out .3s;
+    transition: 1.3s ease-in-out .3s;
+}
+.sec-6 .image:hover {  transform: scale(.9) ; opacity: .8}
+ img {
+     
+    padding: 2px;
+    height:450px ;
+    width: 400px;
+    -webkit-box-shadow: 1px 1px 5px #000,
+                        -1px -1px 5px #000;
+    -moz-box-shadow: 1px 1px 5px #000,
+                        -1px -1px 5px #000;
+    -o-box-shadow: 1px 1px 5px #000,
+                        -1px -1px 5px #000;
+    box-shadow: 1px 1px 5px #000,
+                        -1px -1px 5px #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+/***** right  part ****/ 
+.sec-6 .right h2 , p{ padding-left: 20px}
+.high-light {
+    margin-top: 7px;
+    width: 100%;
+    height: 20px;
+    background-color:#666 ;
+    color: #fff;
+    margin-left: 20px ;
+    padding: 10px;
+    height: 20px;
+    font-size: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+}
+/* ************** sec seven **************** */ 
+.sec-seven {  margin-top: 60px; text-align: center}
+.sec-seven .buttons {
+    height: 60px;
+    background-color:rgba(240,240,240,1);
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.sec-seven .buttons >div { position: relative;   left:25%; width: ;}
+.sec-seven .buttons button{margin-top: 13px;width:130px; margin-left: 20px; padding: 5px; letter-spacing:.8px; line-height: 28px;}
+.sec-seven .picuture { 
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 30px;
+} 
+ 
+.sec-seven .picuture > div { width: 33.333333333333333333333333%; margin-bottom: 30px; height: 350px}
+.sec-seven .picuture .image-7 {
+     margin: 10px;
+    -webkit-transition: 1.3s ease-in-out;
+    -moz-transition: 1.3s ease-in-out;
+    -o-transition: 1.3s ease-in-out;
+    transition: 1.3s ease-in-out
+}
+.sec-seven .picuture .image-7 img { width: 100%; height: 350px}
+
+ .image-7:hover {  transform: scale(.9); opacity: .7}
+/* *************** section eight **************** */ 
+.section-eight { 
+    background-color:rgba(240,240,240,1);
+    text-align: center;
+    padding-top: 30px ;
+    margin-top: 30px;   
+}
+.sec-8 .parts { 
+    margin-top: 60px;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.sec-8 .parts >div { width: 25%}
+.sec-8  i{ 
+    margin-bottom: 20px;
+    height: 60px;
+    border: 1px solid #ccc; 
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    padding: 5%;
+    transition: 2s ease;
+}
+.sec-8  i:hover { transform: rotateY(180deg); background-color: #999;color: #fff}
+/* *********** section nine ************* */
+.sec-9 { text-align: center; margin-top: 50px; }
+.sec-9 .suscrip{ 
+    background-color:rgba(240,240,240,1) ;
+    position: relative; 
+    width: 645px ;
+    height: 80px;
+    left: 21%;
+    margin: 20px;
+    }
+.sec-9 .suscrip input[type="text"] { 
+    width: 420px;
+    height: 29px ; 
+    padding: 5px;
+    margin-top: 21px;
+    border-radius: 0;
+}
+.sec-9 .suscrip  button {
+    -wbkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    height: 41px;
+    width: 170px ;
+}
+
+/* ********* section ten *************** */
+
+.section-ten { 
+    height: 500px ; 
+    margin-top: 30px;
+    background-image: url(../images/map.png);
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.section-ten .contact {
+    text-align: left;
+    padding: 20px;
+    margin-left: 0%;
+    width: 33%;
+    background-color:rgba(240,240,240,.9)
+}
+.section-ten .contact h2 {  margin-left: 20px;}
+.section-ten .contact  input[type="text"]{ 
+    width: 85%;
+    margin-bottom: 15px;
+    border: 0px ;
+    background-color: rgba(40,40,40,.2);
+}
+.section-ten .contact textarea { 
+    font-family: 'Architects Daughter';
+    font-weight: bold;
+    font-size: 17px;
+    background-color: #ccc;
+    border: 0;
+    color: #999;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+     border-radius: 20px;
+    text-transform: capitalize;
+    padding: 10px;
+    -webkit-animation: animation1 3s ease-in-out;
+    -moz-animation: animation1 3s ease-in-out;
+    -o-animation: animation1 3s ease-in-out;
+    animation: animation1 3s ease-in-out;
+     -webkit-transition: .7s ease-in-out ;
+     -webkit-transition: .7s ease-in-out ;
+     -webkit-transition: .7s ease-in-out ;
+     -webkit-transition: .7s ease-in-out ;
+}
+
+/* ************ footer ************* */
+
+footer{ height: 40px; background-color: rgba(0,0,0,.7);  }
+footer .foot-1 { 
+    text-align: center;
+    color: #fff;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-top:5px;
+    font-family: 'Handlee';
+    font-weight: 100;
+    font-size: 15px;     
+}
+footer .foot-1 > div { width:30% ; padding: 10px }
+footer .foot-1 a { color: #666}
+footer .foot-1 a:hover { padding: 5px; color: #fff}
+footer .foot-1 i{ color: #ccc; margin-left: 10px;}
+footer .foot-1 i:hover { color: #999}
+/****************** end footer ***********/
+.foot-2 { 
+    height: 20px;
+    color: #fff ;
+    background-color: #000; 
+    text-align: center;
+    padding: 8px; 
+    font-family: 'Handlee';
+    font-weight: 100;
+    font-size: 11px;
+}
+
+                                               /**
+                                            ***********
+                                          ****************
+                                             *********
+                                               ******
+                                                 **/
+
+/* ************** media query ********** */ 
+/* ************** max-width 500px ***** */ 
+
+@media (max-width:900px){ 
+    nav {  height:300px; background-color: rgba(0,0,0,.7); margin-top: 0px}
+    nav span { font-size: 3px; padding: 2px;}
+    nav ul {  right: -20px; top: 10px  }
+    nav ul li { display: block; margin-bottom: 3px; width: 100%;}
+    nav ul li  a { 
+        width: 100%;
+        font-size: 13px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+    }
+    
+nav ul li  a:hover:not(.active){ border-right:1px solid #33cccc;   border-left:0px ; padding-right: 5px }
+
+/************ section one ***********/
+    
+    .sec-1 {
+    display: flex; 
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+  .sec-1> div {  width:100%; text-align: center; }
+/* ****** section two part two**** */ 
+    .flex-two > div {  width: 100% }
+    
+.sec-1 > div:hover{ 
+    width: 100%;
+    margin-bottom:15px;
+     margin-left: 0px;
+    margin-right: 0px ;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+/* **** section three ***** */ 
+    .sec-3-left p  { padding-right: 0}
+    .sec-3 > div { width: 100%; text-align: center }
+    .alig-right ,.align-left{  text-align: center}
+    .sec-3-right   { margin-left: 0}
+    .progress-sec-3 { padding-left: 0;}
+    .progress-sec-3 .progress { text-align: justify}
+    mark {
+    padding: 8px;
+    background-color:#ccc ;
+    border-bottom: 5px solid #666
+}
+    
+    /* ****************section four *****************/ 
+ 
+.sec-4  { ; margin-left: 0}
+.sec-4 > div { 
+    font-size: 16px;
+    float: left;
+    margin-top: 0px; 
+    margin-bottom: 10px;
+}
+
+.sec-4 .one { 
+    text-align: left;
+    width: 100%;
+    padding-left: .5%;    
+}
+.sec-4 .one > div{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    padding: 10px%;
+}
+    
+/*------------------------------------------------------*/
+    
+.sec-4 .two { 
+    clear: both;
+    display: none;}
+    
+/*-----------------------------------------------------------*/
+    
+.sec-4 .three {
+    margin-top: 25px;
+    width: 100%; 
+    }
+.sec-4 .three > div{
+    padding: 5px;
+    width: 100%;
+    border-radius:   10px 10px ;
+}
+.sec-4 .three > div:before { display: none}
+    
+/*  ************section five ************ */ 
+    .sec-5-bootom img { 
+        height: 150px;
+        width: 150px;
+    }
+/* ***** section sex ***** */ 
+    .sec-6 { 
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .sec-6 > div {  width: 100%; text-align: center}
+    .sec-6 .left .image { margin-top:10px; width: 100% }
+    .sec-6 .left img {
+        width: 100%;
+        height:auto;
+        height: 300px
+    }
+    
+    /***** right  part ****/ 
+    .sec-6 .right h2 , p{ padding-left: 0}
+    .high-light { margin-left: 0px }
+/* ******* *****************  section seven *********************/ 
+    
+     .sec-seven .buttons { height: 100px; background-color:rgba(240,240,240,1);}
+    .sec-seven .buttons button{ line-height: 17px; margin-left: 0px;}
+    .sec-seven .buttons > div  {  width:50%; left: 0%; }
+    .sec-seven .buttons {padding: 10px;margin-top: 15px;}
+    .sec-seven .buttons button{margin-top: 5px;width:70%; margin-left: 10px; padding: 5px; letter-spacing:.2px; line-height: 28px;}
+    .sec-seven .picuture > div { width: 100%;height: 250px; }
+    .sec-seven .picuture .image-7 img { width: 100%; height: 250px}
+    
+/* ****** section eight ********* */ 
+    .sec-8 .parts >div { width: 100%}
+ /******* section nine ********* */  
+    .section-nine {margin-bottom: 100px}
+    .sec-9 .suscrip{ width: 100% ; height: 120px; left: 0%; margin: 0px; padding: 10px; left: 0%; }
+    .sec-9 .suscrip input[type="text"] { width: 80%;  }
+    .sec-9 .suscrip  button { width: 85%  }
+    .sec-9 .suscrip  button,
+    .sec-9 .suscrip input[type="text"] { margin-top: 2%}
+/* ****** section ten ****** */ 
+    .section-ten .contact { text-align: center; padding: 5px; margin-left: 0; width: 100%;}
+    .section-ten .contact h2 {  margin-left: 0px;}
+    .section-ten .contact textarea,input { margin-left: 0px;}
+    .section-ten .contact  input[type="text"]{ width: 85%; margin-bottom: 15px; border: 0px ;
+                                               background-color: rgba(40,40,40,.2);color: #0099cc}
+    .section-ten .contact textarea { width: 80%}
+/* ******** footer ************ **/ 
+    footer .foot-1 { height: 100px }
+    footer .foot-1 > div { width:100% ; padding: 10px; margin-bottom: 20px}
+    footer{height: 180px;background-color: rgba(0,0,0,.7);}
+/****************** end footer ***********/
+
+
+/* ********* h2  , p *********** */ 
+    h2 {font-family: 'Handlee'; font-size: 18px; color: #333; text-transform: capitalize}
+
+    p { font-family: 'Architects Daughter';font-weight: 600;font-size:13px;
+        letter-spacing:.2px; line-height: 17px;color: #666}
+    button {  font-size: 13px;letter-spacing:.4px;padding: 7px;}
+    button:hover{ transform: scaleX(1.2)}
+    
+}
+/* **** end media query ***** */ 
+                                               /**
+                                            ***********
+                                          ****************
+                                             *********
+                                               ******
+                                                 **/
+/* ********** fonts ********** */ 
+
+/* for spaaaan */ 
+@font-face {
+  font-family: 'Courgette';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Courgette Regular'), local('Courgette-Regular'), url(https://fonts.gstatic.com/s/courgette/v5/BHG8ZtTfO0yYnp02--QxqltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* for links */ 
+
+@font-face {
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Architects Daughter Regular'), local('ArchitectsDaughter-Regular'), url(https://fonts.gstatic.com/s/architectsdaughter/v8/RXTgOOQ9AAtaVOHxx0IUBM3t7GjCYufj5TXV5VnA2p8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* for heading */ 
+
+@font-face {
+  font-family: 'Handlee';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Handlee Regular'), local('Handlee-Regular'), url(https://fonts.gstatic.com/s/handlee/v6/hN5OFJA7DLALxZ1osZb59Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+                                             
+                                                
+/* ********** aninmations ************* */ 
+
+@keyframes animation1 { 
+    from { opacity: 0}
+    to { opacity: 1}
+}
+                                                /**
+                                            ***********
+                                          ****************
+                                             *********
+                                               ******
+                                                 **/
